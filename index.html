@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+    <title>CSCI4131 Assignment3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
 
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -34.397, lng: 150.644},
+                zoom: 8
+            });
+        }
+
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap">
+    </script>
+</head>
+
+<body>
+    <div id="map"></div>
 </body>
 </html>
+
+AIzaSyA4PVk2eGoaHzQ1W1Xvlr2QilbGNM_xNtw
