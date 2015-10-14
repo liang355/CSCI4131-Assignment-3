@@ -1,2 +1,37 @@
 html, body { height: 100%; margin: 0; padding: 0; }
 #map { height: 100%; }
+
+#architectText {
+    font-size: 24px;
+    text-align: center;
+}
+
+#buildingText {
+    text-align: center;
+}
+
+#descriptionText {
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
